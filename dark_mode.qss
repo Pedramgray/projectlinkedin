@@ -1,0 +1,124 @@
+/* Set the overall background color */
+QWidget {
+    background-color: #1c1c1e;
+    color: #f0f0f0;
+    font-family: "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+/* Style the QPushButton */
+QPushButton {
+    background-color: #2c2c2e;
+    color: #f0f0f0;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+}
+
+QPushButton:hover {
+    background-color: #3c3c3e;
+}
+
+QPushButton:pressed {
+    background-color: #4c4c4e;
+}
+
+/* Style the QLineEdit */
+QLineEdit {
+    background-color: #2c2c2e;
+    color: #f0f0f0;
+    border: none;
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+
+/* Style the QComboBox */
+QComboBox {
+    background-color: #2c2c2e;
+    color: #f0f0f0;
+    border: none;
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+
+QComboBox::drop-down {
+    background-color: #3c3c3e;
+    color: #f0f0f0;
+    border-radius: 4px;
+}
+
+QComboBox QAbstractItemView {
+    background-color: #2c2c2e;
+    color: #f0f0f0;
+    selection-background-color: #3c3c3e;
+    selection-color: #f0f0f0;
+}
+
+/* Style the QCheckBox and QRadioButton */
+QCheckBox, QRadioButton {
+    color: #f0f0f0;
+}
+
+QCheckBox::indicator, QRadioButton::indicator {
+    background-color: #2c2c2e;
+    border: 1px solid #3c3c3e;
+    border-radius: 4px;
+}
+
+QCheckBox::indicator:checked, QRadioButton::indicator:checked {
+    background-color: #007aff;
+    border-color: #007aff;
+}
+
+/* Style the QTabWidget */
+QTabWidget::pane {
+    background-color: #1c1c1e;
+    color: #f0f0f0;
+}
+
+QTabBar::tab {
+    background-color: #2c2c2e;
+    color: #f0f0f0;
+    padding: 8px 16px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+QTabBar::tab:selected {
+    background-color: #1c1c1e;
+}
+
+/* Style the QScrollBar */
+QScrollBar:vertical {
+    background-color: #2c2c2e;
+    width: 12px;
+    margin: 0px 0px 0px 0px;
+}
+
+QScrollBar::handle:vertical {
+    background-color: #3c3c3e;
+    min-height: 20px;
+}
+
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {
+    background-color: #2c2c2e;
+    height: 0px;
+    subcontrol-position: bottom;
+    subcontrol-origin: margin;
+}
+
+/* Style the QMenu */
+QMenu {
+    background-color: #2c2c2e;
+    color: #f0f0f0;
+    border-radius: 4px;
+}
+
+QMenu::item {
+    padding: 8px 16px;
+}
+
+QMenu::item:selected {
+    background-color: #3c3c3e;
+}
+
+/* Add more styles as needed for your application */
